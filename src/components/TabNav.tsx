@@ -12,30 +12,36 @@ export default function TabNav({ tabs, children }: TabNavProps) {
 
   return (
     <div>
-      {/* Tab bar - dark theme */}
-      <div className="border-b border-white/10">
-        <div className="max-w-[1200px] mx-auto px-8 flex gap-0 overflow-x-auto">
-          {tabs.map((tab, i) => (
-            <button
-              key={tab}
-              onClick={() => setActiveTab(i)}
-              className={`relative px-8 py-4 text-[1.5rem] font-semibold whitespace-nowrap transition-colors duration-200 ${
-                activeTab === i
-                  ? "text-[#2563eb]"
-                  : "text-white/40 hover:text-white/70"
-              }`}
-            >
-              {tab}
-              {activeTab === i && (
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[3px] bg-[#2563eb] rounded-t-full" />
-              )}
-            </button>
-          ))}
+      {/* Tab bar */}
+      <div className="sticky top-[80px] z-40 bg-[#030712]/90 backdrop-blur-xl border-b border-white/5">
+        <div className="max-w-[1300px] mx-auto px-6 md:px-10">
+          <div className="flex gap-1 overflow-x-auto scrollbar-hide py-2">
+            {tabs.map((tab, i) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(i)}
+                className={`relative px-6 py-3 text-[1.4rem] font-semibold whitespace-nowrap transition-all duration-300 rounded-full ${
+                  activeTab === i
+                    ? "text-white bg-primary/20"
+                    : "text-slate-500 hover:text-white hover:bg-white/5"
+                }`}
+              >
+                {tab}
+                {activeTab === i && (
+                  <span className="absolute bottom-1.5 left-1/2 -translate-x-1/2 w-1 h-1 bg-primary rounded-full" />
+                )}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* Tab content with mount animation */}
-      <div key={activeTab} className="mount">
+      {/* Tab content with animation */}
+      <div
+        key={activeTab}
+        className="animate-fade-in-up"
+        style={{ animationDuration: "0.4s" }}
+      >
         {children[activeTab]}
       </div>
     </div>
