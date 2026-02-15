@@ -43,7 +43,7 @@ const cards = [
       </svg>
     ),
     title: "산학협력 프로젝트",
-    desc: "KB손해보험, Upstage 등과 실제 Agent 프로젝트 수행. 실전 문제를 풉니다.",
+    desc: "국내 모 보험사, Upstage 등과 실제 Agent 프로젝트 수행. 실전 문제를 풉니다.",
     accent: "from-slate-400 to-slate-500",
     glow: "group-hover:shadow-[0_0_40px_-10px_rgba(148,163,184,0.4)]",
   },

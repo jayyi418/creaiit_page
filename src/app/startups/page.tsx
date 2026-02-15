@@ -79,8 +79,8 @@ const startups = [
   },
   {
     name: "AiNOS",
-    tag: "AI Infra",
-    desc: "AI Agent 솔루션",
+    tag: "AI Transformation",
+    desc: "보험, 데이터센터, 국방, 엔터테인먼트, 스마트시티 AX 솔루션",
     url: "https://ainos.io",
     gradient: "from-indigo-500 to-violet-600",
     borderColor: "border-indigo-500/30",

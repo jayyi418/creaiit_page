@@ -9,7 +9,6 @@ const navItems = [
   { label: "ABOUT", href: "/about" },
   { label: "ACTIVITIES", href: "/activities" },
   { label: "STARTUPS", href: "/startups" },
-  { label: "PEOPLE", href: "/people" },
   { label: "JOIN", href: "/join" },
 ];
 

@@ -21,7 +21,7 @@ const stats = [
     number: 3,
     suffix: "+",
     label: "산업 파트너",
-    description: "KB손해보험, Upstage 등",
+    description: "국내 모 보험사, Upstage 등",
     color: "text-sky-400",
   },
   {

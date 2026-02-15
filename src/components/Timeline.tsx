@@ -48,7 +48,7 @@ const timelineData: TimelineItem[] = [
       { date: "3월", title: "CREAI+IT 창립", description: "1기 7명으로 시작" },
       { date: "6월", title: "2기 활동", description: "10명 합류" },
       { date: "9월", title: "3기 활동 시작", description: "6명 합류" },
-      { date: "11월", title: "KB손해보험 산학협력 체결", badge: "partner", badgeColor: "bg-slate-500", description: "Creative Agent 개발" },
+      { date: "11월", title: "국내 모 보험사 산학협력 체결", badge: "partner", badgeColor: "bg-slate-500", description: "Creative Agent 개발" },
     ],
   },
 ];
@@ -87,7 +87,7 @@ const BadgeIcon = ({ type }: { type: string }) => {
 };
 
 const achievementBadges = [
-  { icon: "partner", label: "KB손해보험 파트너", color: "from-primary to-cyan-500" },
+  { icon: "partner", label: "산학협력 파트너", color: "from-primary to-cyan-500" },
   { icon: "startup", label: "7개 스타트업", color: "from-sky-400 to-blue-500" },
   { icon: "members", label: "33+ 누적 멤버", color: "from-blue-400 to-indigo-500" },
   { icon: "calendar", label: "2년차 운영", color: "from-slate-400 to-slate-500" },

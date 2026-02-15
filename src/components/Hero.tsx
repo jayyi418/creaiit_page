@@ -203,7 +203,7 @@ export default function Hero() {
         </div>
 
         {/* Body text */}
-        <p className="text-[1.6rem] md:text-[2rem] text-slate-400 mt-6 mb-10 max-w-[600px] mx-auto leading-relaxed font-body animate-fade-in-up delay-200">
+        <p className="text-[1.6rem] md:text-[2rem] text-slate-400 mt-6 mb-8 max-w-[600px] mx-auto leading-relaxed font-body animate-fade-in-up delay-200">
           AI 기술의 최전선에서
           <br className="md:hidden" />
           <span className="text-slate-300 font-medium">
@@ -212,6 +212,26 @@ export default function Hero() {
           </span>
           합니다.
         </p>
+
+        {/* Hook for non-developers */}
+        <div className="animate-fade-in-up delay-250 mb-10 max-w-[650px] mx-auto">
+          <div className="relative p-5 md:p-6 rounded-2xl bg-gradient-to-br from-primary/10 via-[#0F172A]/80 to-[#0F172A]/60 border border-primary/20 backdrop-blur-sm">
+            {/* Corner accent */}
+            <div className="absolute top-0 left-0 w-16 h-16 overflow-hidden rounded-tl-2xl">
+              <div className="absolute top-0 left-0 w-[2px] h-10 bg-gradient-to-b from-primary to-transparent" />
+              <div className="absolute top-0 left-0 h-[2px] w-10 bg-gradient-to-r from-primary to-transparent" />
+            </div>
+
+            <p className="text-[1.3rem] md:text-[1.5rem] text-slate-300 leading-relaxed text-center">
+              <span className="text-white font-semibold">&ldquo;나는 개발자가 아니니까 AI 활용은 안 배워도 되겠지?&rdquo;</span>
+              <br />
+              <span className="text-primary font-semibold">가장 위험한 생각입니다.</span>{" "}
+              마케터도, 디자이너도, 기획자도, 경영학과도.
+              <br className="hidden md:block" />
+              <span className="text-white font-medium">AI를 탁월하게 쓰는 사람</span>이 앞서 나갑니다.
+            </p>
+          </div>
+        </div>
 
         {/* Badge */}
         <div className="animate-fade-in-up delay-300 mb-10">

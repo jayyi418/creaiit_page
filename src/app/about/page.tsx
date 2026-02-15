@@ -312,15 +312,15 @@ export default function AboutPage() {
                       <p className="text-[1.5rem] text-slate-400 leading-[1.9] font-body mb-4">
                         학회 활동이 아니라 실전의 결과를 추구합니다.
                         <br />
-                        <span className="text-blue-400 font-semibold">7개 스타트업 활동 중. KB손해보험 산학협력.</span>
+                        <span className="text-blue-400 font-semibold">10개 스타트업 활동 중. 국내 모 보험사 산학협력.</span>
                         <br />
                         <span className="text-white">
                           Demo Day 발표 및 투자 연결. 만들고, 부딪히고, 증명한 기록들.
                         </span>
                       </p>
                       <div className="flex flex-wrap gap-2">
-                        <span className="px-3 py-1 bg-blue-400/10 border border-blue-400/20 rounded-full text-[1.2rem] text-blue-400">7개 스타트업</span>
-                        <span className="px-3 py-1 bg-blue-400/10 border border-blue-400/20 rounded-full text-[1.2rem] text-blue-400">KB손해보험</span>
+                        <span className="px-3 py-1 bg-blue-400/10 border border-blue-400/20 rounded-full text-[1.2rem] text-blue-400">10개 스타트업</span>
+                        <span className="px-3 py-1 bg-blue-400/10 border border-blue-400/20 rounded-full text-[1.2rem] text-blue-400">산학협력</span>
                         <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[1.2rem] text-slate-400">Demo Day</span>
                       </div>
                     </div>
