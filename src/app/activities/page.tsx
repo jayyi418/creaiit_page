@@ -22,7 +22,7 @@ const startupSessions = [
 
 // Center milestones flowing down
 const milestones = [
-  { title: "산학협력", subtitle: "KB손해보험", type: "collab" },
+  { title: "산학협력", subtitle: "국내 모 보험사", type: "collab" },
   { title: "연사 초청", subtitle: "AI 전문가", type: "speaker" },
   { title: "연사 초청", subtitle: "창업자", type: "speaker" },
   { title: "연사 초청", subtitle: "VC 투자자", type: "speaker" },
